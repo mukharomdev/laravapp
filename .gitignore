@@ -16,3 +16,5 @@ yarn-error.log
 /local_htdocs
 storage.zip
 vendor.zip
+node_modules.zip
+
