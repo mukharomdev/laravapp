@@ -14,3 +14,5 @@ yarn-error.log
 /.idea
 /.vscode
 /local_htdocs
+storage.zip
+vendor.zip
