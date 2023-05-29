@@ -11,16 +11,13 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 <ul class="navbar-nav">
 <li class="nav-item">
-<a class="nav-link active" href="/">Home</a>
+<a class="nav-link active" href="/mahasiswa">Data Mahasiswa</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/blog">Blog</a>
+<a class="nav-link" href="/dosen">Data Dosen</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/about">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/contact">Contact</a>
+<a class="nav-link" href="/gallery">Gallery</a>
 </li>
 </ul>
 </nav>

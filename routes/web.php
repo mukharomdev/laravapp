@@ -46,4 +46,6 @@ return view('gallery');
 });
 
 Route::get('/', [App\Http\Controllers\PageController::class,'index']);
-Route::get('/mahasiswa',[App\Http\Controllers\PageController::class,'tampil']);
+Route::get('/blog',[App\Http\Controllers\PageController::class,'blog']);
+Route::get('/about',[App\Http\Controllers\PageController::class,'about']);
+Route::get('/contact',[App\Http\Controllers\PageController::class,'contact']);
