@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/reun5517/public_html/blog.reuni05sman1banjarharjo.my.id
-    - /bin/composer install
+    - /bin/cp -rf public/* $DEPLOYPATH

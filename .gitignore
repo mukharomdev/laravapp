@@ -17,4 +17,6 @@ yarn-error.log
 storage.zip
 vendor.zip
 node_modules.zip
+index.php
+server.php
 
