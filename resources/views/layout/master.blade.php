@@ -55,7 +55,7 @@
           <a class="nav-link " href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="/contac">Contact</a>
+          <a class="nav-link " href="/contact">Contact</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -122,7 +122,7 @@ Situs Alumni SMAN 1 Banjarharjo 2005 | Copyright © {{ date("Y") }} Reuni05sman1
     </div>
 
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>&copy; 2023 Company, Inc. All rights reserved.</p>
+      <p>Situs Alumni SMAN 1 Banjarharjo 2005 | Copyright © {{ date("Y") }} blog.reuni05sman1banjarharjo</p>
       <ul class="list-unstyled d-flex">
         <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
         <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
