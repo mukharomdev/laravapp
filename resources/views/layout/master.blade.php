@@ -55,7 +55,7 @@
           <a class="nav-link " href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="/contact">Contact</a>
+          <a class="nav-link " href="/contac">Contact</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -65,14 +65,14 @@
     </div>
   </div>
 </nav>
-  </div>
+  
 @yield('content')
 <!-- <footer class="bg-dark py-4 text-white mt-4">
 <div class="container">
 Situs Alumni SMAN 1 Banjarharjo 2005 | Copyright © {{ date("Y") }} Reuni05sman1banjarharjo
 </div>
 </footer> -->
-<div class="container">
+
   <footer class="py-5">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
