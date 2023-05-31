@@ -9,22 +9,7 @@
 <title>@yield('title')</title>
 </head>
 <body>
-<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link active" href="/">Home</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/blog">Blog</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/about">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="/contact">Contact</a>
-</li>
-</ul>
-</nav> -->
+<!-- Navbar -->
   <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -65,7 +50,11 @@
     </div>
   </div>
 </nav>
-  
+  @component('components.breadcrumb')
+    @slot('arialabel')
+      breadcrumb
+    @endslot
+  @endcomponent
 @yield('content')
 <!-- <footer class="bg-dark py-4 text-white mt-4">
 <div class="container">
