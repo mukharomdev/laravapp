@@ -11,9 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .react()
-    //.sass('resources/sass/app.scss', 'public/css');
-mix.styles([
-'resources/css/my-style.css'
-],'public/css/app.css');
+mix.js('resources/js/carousel.js', 'public/js/script.js')
+    .sourceMaps();
