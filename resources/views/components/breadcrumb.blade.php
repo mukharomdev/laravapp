@@ -7,7 +7,7 @@
 
 <div class="my-2">
   <div aria-label="{{$arialabel}}">
-    <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
+    <ol class="breadcrumb p-3 bg-body-white rounded-3">
       <li class="breadcrumb-item">
         <a class="link-body-emphasis" href="#">
           <svg class="bi" width="16" height="16"><use xlink:href="#house-door-fill"></use></svg>
