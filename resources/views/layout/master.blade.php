@@ -8,7 +8,7 @@
 
 <title>@yield('title')</title>
 </head>
-<body>
+<body style="padding-top: 70px">
 <!-- svg footer sosial media -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -26,8 +26,8 @@
   </symbol>
 </svg>
 <!-- Navbar -->
-  <div class="container">
-  <nav class="navbar navbar-expand-lg bg-info bg-gradient">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><img src="/img/alumnismansaba2005-tinypng.png" hight="50" width="60"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,9 +72,11 @@
     @endslot
   @endcomponent
 @yield('content')
-  <footer class="py-5 bg-info bg-gradient">
+</div>
+
+  <footer class="py-5 bg-info bg-gradient container-fluid">
     <div class="row">
-      <div class="col-6 col-md-2 mb-3">
+      <div class="col-6 col-md-2 mb-3 mx-5">
         <h5>Kontribusi</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sponsorship</a></li>
@@ -85,8 +87,7 @@
         </ul>
       </div>
 
-   
-   
+ 
 
 <!--       <div class="col-md-5 offset-md-1 mb-3">
         <form>
