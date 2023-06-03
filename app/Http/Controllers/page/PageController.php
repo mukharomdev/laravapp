@@ -36,8 +36,9 @@ class PageController extends Controller
 
 	public function test()
 	{
-		$test = new Database();
-		echo $test->coba();
+		// $test = new Database();
+		// echo $test->coba();
+		return view('dashboard.mainboard');
 
 	}
 
