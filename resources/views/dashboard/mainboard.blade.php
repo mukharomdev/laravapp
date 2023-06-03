@@ -103,6 +103,7 @@
   dropdown
   @endslot
 @endcomponent
+
 @component('dashboard.headerboard')
   @slot('headernavbar')
   navbar
