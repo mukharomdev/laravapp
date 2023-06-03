@@ -2,9 +2,9 @@
 @section('title','Home')
 @section('content')
 
-@component('components.cover')
-	@slot('cover')
-		cover
+@component('components.jumbotron')
+	@slot('jumbotron')
+		jumbotron
 	@endslot
 @endcomponent
 @endsection

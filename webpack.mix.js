@@ -15,7 +15,12 @@ mix.js([
 	'resources/js/app.js',
 	'resources/js/carousel.js',
 
-	], 'public/js')
+	], 'public/js/app.js')
 
-mix.styles('resources/sass/app.css', 'public/css')
+mix.styles([
+	'resources/css/app.css',
+	'resources/css/navbar.css',
+
+
+	], 'public/css/app.css')
     
