@@ -11,10 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/carousel.js', 'public/js/script.js')
-    .sourceMaps();
+mix.js([
+	'resources/js/app.js',
+	'resources/js/carousel.js',
 
+	], 'public/js')
 
-mix.styles([
-	'resources/css/breadcrumb.css'
-],'public/css/app.css')
+mix.styles('resources/sass/app.css', 'public/css')
+    

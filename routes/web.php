@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\page\PageController;
+use App\Http\Controllers\collection\CollectionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,7 +46,18 @@ Route::get('gallery', function () {
 return view('gallery');
 });
 
-Route::get('/', [App\Http\Controllers\PageController::class,'index']);
-Route::get('/blog',[App\Http\Controllers\PageController::class,'blog']);
-Route::get('/about',[App\Http\Controllers\PageController::class,'about']);
-Route::get('/contact',[App\Http\Controllers\PageController::class,'contact']);
+/*
+	Route Page
+ */
+
+Route::get('/', [PageController::class,'index'])->name('home');
+Route::get('/blog',[PageController::class,'blog'])->name('blog');
+Route::get('/about',[PageController::class,'about'])->name('about');
+Route::get('/contact',[PageController::class,'contact'])->name('contact');
+Route::get('/database',[PageController::class,'test']);
+
+/*
+	Route Collection
+ */
+
+Route::get('/satu', [CollectionController::class,'collectionSatu']);

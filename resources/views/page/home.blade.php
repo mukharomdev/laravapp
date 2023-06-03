@@ -2,12 +2,9 @@
 @section('title','Home')
 @section('content')
 
-@component('components.carousel')
-  @slot('class')
-    carousel
-  @endslot
+@component('components.cover')
+	@slot('cover')
+		cover
+	@endslot
 @endcomponent
-<h1>Home</h1>
-<h1>update</h1>
-
 @endsection

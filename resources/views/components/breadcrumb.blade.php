@@ -8,18 +8,23 @@
 <div class="my-2">
   <div aria-label="{{$arialabel}}">
     <ol class="breadcrumb p-3 bg-body-white rounded-3">
+
       <li class="breadcrumb-item">
-        <a class="link-body-emphasis" href="#">
+        <a class="link-body-emphasis" href="{{$hrefbreadcrumb}}">
           <svg class="bi" width="16" height="16"><use xlink:href="#house-door-fill"></use></svg>
           <span class="visually-hidden">Home</span>
         </a>
       </li>
+      
       <li class="breadcrumb-item">
-        <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Library</a>
+      	@for($i = 0; $i <= count(Request::segments()); $i++)
+        <a class="link-body-emphasis fw-semibold text-decoration-none" href="{{Request::segment($i)}}">{{Request::segment($i)}}</a>
       </li>
-      <li class="breadcrumb-item active" aria-current="page">
+     <!--  <li class="breadcrumb-item active" aria-current="page">
         Data
-      </li>
+      </li> -->
+      @endfor
     </ol>
   </div>
 </div>
+
