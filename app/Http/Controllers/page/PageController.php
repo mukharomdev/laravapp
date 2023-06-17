@@ -2,15 +2,11 @@
 namespace App\Http\Controllers\page;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\database\DataBase;
+
 
 class PageController extends Controller
 {   
-    // public function __construct()
-    // {
-    //     $this->middleware('auth');
-    // }
-
+    
 
 	public function index()
 	{
@@ -40,12 +36,5 @@ class PageController extends Controller
 
 	}
 
-	public function test()
-	{
-		// $test = new Database();
-		// echo $test->coba();
-		return view('dashboard.mainboard');
-
-	}
-
+	
 }
