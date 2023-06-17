@@ -14,37 +14,6 @@ use App\Http\Controllers\collection\CollectionController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/hello',function (){
-// 	return 'hello laravel';
-// });
-
-// Route::get('/belajar', function () {
-// 	echo '<h1>Hello World</h1>';
-// 	echo '<p>Sedang belajar Laravel</p>';
-// });
-
-// // ini view dari resources/views
-// Route::get('/mahasiswa',function (){
-// 	return view('mahasiswa',["mahasiswa01" => "Risa Lestari"]);
-// });
-// 
-Route::get('mahasiswa', function () {
-$arrMahasiswa = ["Risa Lestari","Rudi Hermawan","Bambang Kusumo",
-"Lisa Permata"];
-return view('mahasiswa')->with('mahasiswa', $arrMahasiswa);
-});
-Route::get('dosen', function () {
-$arrDosen = ["Maya Fitrianti, M.M.","Prof. Silvia Nst, M.Farm.",
-"Dr. Umar Agustinus","Dr. Syahrial, M.Kom."];
-return view('dosen')->with('dosen', $arrDosen);
-});
-Route::get('gallery', function () {
-return view('gallery');
-});
 
 /*
 	Route Page
@@ -60,8 +29,7 @@ Route::post('/', [PageController::class,'index'])->name('logout');
 	Route Collection
  */
 
-Route::get('/satu', [CollectionController::class,'collectionSatu']);
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/admin',[PageController::class,'test'])->name('admin');
+Route::get('/', [PageController::class,'index'])->name('home');
