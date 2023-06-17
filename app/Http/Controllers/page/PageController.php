@@ -5,7 +5,13 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\database\DataBase;
 
 class PageController extends Controller
-{
+{   
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
 	public function index()
 	{
 
