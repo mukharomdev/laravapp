@@ -23,4 +23,8 @@ mix.styles([
 
 
 	], 'public/css/app.css')
-    
+ 
+ /* 
+  color html = fbcc86
+
+*/
