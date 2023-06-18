@@ -47,7 +47,7 @@
             Info
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Data Alumni</a></li>
+            <li><a class="dropdown-item" href="{{route('alumnies')}}">Data Alumni</a></li>
             <li><a class="dropdown-item" href="#">Panitia</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Donatur</a></li>

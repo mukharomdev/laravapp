@@ -15,7 +15,8 @@ class AlumniController extends Controller
      */
     public function index()
     {
-        //
+        $alumnies = Alumni::all();
+        return view('alumni.index',['alumnies' => $alumnies]);
     }
 
     /**

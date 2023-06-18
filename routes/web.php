@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\page\PageController;
 use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\alumni\AlumniController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +34,9 @@ Auth::routes();
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/admin', [DashboardController::class,'admin'])->name('admin');
 
+/*
+ clearing cache
+ */
 Route::get('/cache', function () {
     
     $clearcache = Artisan::call('cache:clear');
@@ -45,3 +49,9 @@ Route::get('/cache', function () {
     echo "Config cleared<br>";
 
 });
+
+/*
+ Route RESTfull API Alumni
+ */
+
+Route::get('/alumnies', [AlumniController::class,'index'])->name('alumnies');
