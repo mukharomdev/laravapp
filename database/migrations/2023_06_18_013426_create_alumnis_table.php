@@ -18,6 +18,9 @@ class CreateAlumnisTable extends Migration
             $table->char('nis',8)->unique();
             $table->string('nama');
             $table->date('tanggal_lahir');
+            $table->string('kelas');
+            $table->string('email');
+            $table->string('no_handphone');
             $table->string('alamat_lengkap');
             $table->timestamps();
         });

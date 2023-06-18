@@ -16,6 +16,9 @@
 			<th>NIS </th>
 			<th>NAMA</th>
 			<th>TTL</th>
+			<th>KELAS</th>
+			<th>EMAIL</th>
+			<th>NO HP</th>
 			<th>ALAMAT</th>
 			</tr>
 			</thead>
@@ -26,6 +29,9 @@
 		<td>{{$alumni->nis}}</td>
 		<td>{{$alumni->nama}}</td>
 		<td>{{$alumni->tanggal_lahir}}</td>
+		<td>{{$alumni->kelas}}</td>
+		<td>{{$alumni->email}}</td>
+		<td>{{$alumni->no_handphone}}</td>
 		<td>{{$alumni->alamat_lengkap}}</td>
 		</tr>
 		@empty
