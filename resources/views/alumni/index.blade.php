@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="container-fluid container-sm mt-3">
+<div class="table-responsive">
  	<div class="row">
 		<div class="col-12">
 			<div class="py-4">
