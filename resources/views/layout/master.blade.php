@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="{{ url('img/alumnismansaba2005-tinypng.png') }}">
 <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -28,7 +29,7 @@
 </svg>
 <!-- Navbar -->
   <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top">
+  <nav class="navbar navbar-expand-lg bg-info bg-gradient fixed-top shadow">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><img src="/img/alumnismansaba2005-tinypng.png" hight="50" width="60"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +83,7 @@
 </div>
 
   
-  <footer class="py-5 bg-info bg-gradient container-fluid">
+  <footer class="py-5 bg-info bg-gradient container-fluid shadow-lg">
     <div class="row">
       <div class="col-6 col-md-2 mb-3 mx-5">
         <h5>Kontribusi</h5>

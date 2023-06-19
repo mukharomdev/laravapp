@@ -5,7 +5,7 @@
 </svg>
 
 
-<div class="my-2">
+<div class="my-2 shadow-lg">
   <div aria-label="{{$arialabel}}">
     <ol class="breadcrumb p-3 bg-body-white rounded-3">
 
