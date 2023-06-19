@@ -85,7 +85,7 @@
   
   <footer class="py-5 bg-info bg-gradient container-fluid shadow-lg">
     <div class="row">
-      <div class="col-6 col-md-2 mb-3 mx-5">
+      <div class="col-6 col-md-2 mb-3 mx-2">
         <h5>Kontribusi</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sponsorship</a></li>
